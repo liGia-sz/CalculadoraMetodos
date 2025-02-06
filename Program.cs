@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Página principal do código
+using Calculadora;
+
+Operacoes.RealizarAdicao();
+Operacoes.RealizarSubtracao();
