@@ -40,6 +40,24 @@ namespace Calculadora
             decimal valor2 = Operacoes.ObterValor();
             Console.WriteLine($"A soma dos valores {valor1} e {valor2} é {valor1 - valor2}");
         }
+
+        public static void RealizarMultiplicacao()
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("MULTIPLCAÇÃO");
+            decimal valor1 = Operacoes.ObterValor();
+            decimal valor2 = Operacoes.ObterValor();
+            Console.WriteLine($"A divisão dos valores {valor1} e {valor2} é {valor1 * valor2}");
+        }
+
+        public static void RealizarDivisao()
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("DIVISÃO");
+            decimal valor1 = Operacoes.ObterValor();
+            decimal valor2 = Operacoes.ObterValor();
+            Console.WriteLine($"A divisão dos valores {valor1} e {valor2} é {valor1 / valor2}");
+        }
     }
 }
 
